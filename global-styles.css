@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "akbaal";
+    src: url(fonts/akbaal.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "akbaal2";
+    src: url(fonts/zh-cn.ttf) format("truetype");
+}
+
+html{
+  font-size: 10px;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #543212;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 100px 0; /* 100px for top and bottom, 0 for left and right */
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 50px 0;
+  }
+}
+
+.container {
+  max-width: 1200px; 
+  width: 90%; /* makes sure nothing will overflow  */
+  margin: 0 auto; /* to keep everything in the center */
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+h1, h2, h3, h4 {
+  font-family: akbaal;
+}
+
+p {
+  font-family: akbaal2;
+  line-height: 1.4em;
+  font-size: 1.8rem;
+  color: #ccbc8e
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+

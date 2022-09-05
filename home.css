@@ -1,0 +1,144 @@
+/* Hero styles */
+.hero__wrapper {
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  flex-direction : column-reverse;
+  gap : 5rem;
+  }
+  .hero__left__wrapper {
+    background-color:rgba(0,0,0,0.6);
+    padding : 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-radius : 35px;
+    width : 55rem;
+
+  }
+  .hero__imgWrapper {
+  max-width : 500px;
+  width : 80%;
+  margin : 0 auto;
+  }
+  .hero__heading {
+  font-family : akbaal2;
+  line-height : 4rem;
+  text-align : center;
+  font-size : 3rem;
+  margin-bottom : 1.5rem;
+  color : #aef0f9;
+  margin: 3rem;
+  }
+  .hero__info {
+  text-align : center;
+  font-size : 1.4rem;
+  color : #ccbc8e;
+  margin: 3rem;
+  }
+  .button__wrapper {
+    padding: 5rem;
+  text-align : center;
+  }
+  @media only screen and (min-width: 768px) {
+  .hero__wrapper {
+  flex-direction : row;
+  gap : 0;
+  }
+  .hero__left {
+  flex : 3;
+  }
+  .hero__right {
+  flex : 4;
+  }
+  .hero__heading {
+  font-size : 3.6rem;
+  margin-bottom : 2rem;
+  text-align : left;
+  font-family : akbaal2;
+  }
+  .hero__info {
+  margin-bottom : 2rem;
+  text-align : left;
+  font-size : 1.8rem;
+  }
+  .button__wrapper {
+  text-align : left;
+  }
+  .hero__imgWrapper {
+  max-width : none;
+  width : 90%;
+  }
+  }
+  /* Home Page Specialties styles */
+  #specialties {
+  padding-top : 10rem;
+  }
+  .specials__wrapper {
+  display : flex;
+  flex-direction : row-reverse;
+  gap : 3rem;
+  }
+  .specials__left {
+  display : flex;
+  gap : 1rem;
+  }
+  .specials__item {
+  background-color : #c7b0e8;
+  padding : 2rem;
+  padding-top : 14rem;
+  border-radius : 35px;
+  width : 45%;
+  margin : 0 auto;
+  }
+  .specials__item__img {
+  margin-top : calc(-50% - 2rem);
+  margin-bottom : 2rem;
+  border-radius : 60px;
+  height : 210px;
+  overflow : hidden;
+  }
+  .specials__item__img img {
+  object-fit : contain;
+  }
+  .specials__item__title {
+  font-size : 2rem;
+  color : #543212;
+  font-weight : 700;
+  margin-bottom : 1rem;
+    
+  }
+  .specials__item__price {
+  color : #543212;
+  font-size : 1.4rem;
+  font-weight : 600;
+  margin-bottom : 1rem;
+  }
+  .specials__item__desc {
+  font-size : 1.4%;
+  color : #543212;
+  font-weight : 500;
+  padding : 1.4rem;
+  }
+  .specials__title {
+  font-size : 1.8rem;
+  color : #aef0f9;
+  margin-bottom : 1.5rem;
+  }
+  @media only screen {
+  .specials__item__desc {
+  font-size : 1.8rem;
+  }
+  .specials__title {
+  font-size : 4rem;
+  line-height : 5.6rem;
+  }
+  }
+  @media only screen and (max-width: 300px) {
+  .specials__left {
+  flex-wrap : wrap;
+  gap : 10rem;
+  }
+  .specials__item {
+  width : 100%;
+  }
+  }

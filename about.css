@@ -1,0 +1,43 @@
+/* About Us Styles */
+.aboutus__wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+.aboutus__title {
+	font-size: 1.8rem;
+	font-weight: 600;
+	color: #aef0f9;
+	margin-bottom: 2rem;
+}
+.aboutus__subtitle {
+	font-weight: 400;
+	color: #543212;
+	margin-bottom: 2rem;
+	background-color: antiquewhite;
+}
+.aboutus__desc {
+	font-size: 1.4rem;
+	line-height: 1.4em;
+	color: #c7b0e8;
+}
+@media only screen and (min-width: 768px) {
+	.aboutus__wrapper {
+		flex-direction: row;
+		gap: 3rem;
+	}
+	.aboutus__img,
+	.aboutus__desc {
+		flex: 1;
+	}
+	.aboutus__title {
+		font-size: 3.6rem;
+	}
+	.aboutus__subtitle {
+		font-size: 1.8rem;
+	}
+	.aboutus__desc {
+		font-size: 1.8rem;
+		max-width: 800px;
+	}
+}
